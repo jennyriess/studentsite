@@ -89,6 +89,12 @@ section {
     color: white;
 }
 
+/* SUB PAGES */
+.page-sub .hero {
+    background: #888;
+    min-height: 30vh;
+}
+
 
 .hero h2 {
     font-size: 6em;
