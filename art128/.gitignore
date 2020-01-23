@@ -1,1 +1,8 @@
+  # Mac System files.
+  .DS_Store
   
+  # Hide all config files
+  *.config
+
+  # Hide NPM
+  node_modules/
