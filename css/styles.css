@@ -42,22 +42,30 @@ header {
 header a {
     color: black;
 }
-
+/*
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
-
+*/
 /* SITE ID */
 .site-id h1 {
-    margin: 0;
+    margin: auto;
+}
+
+.logo {
+    max-width: 110px;
+    padding: 2px;
+    margin: auto;
+    display: flex;
+    align-self: center;
 }
 
 /* SITE NAV */
 nav ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin: 0;
     padding-top: .6em;
 }
@@ -70,6 +78,13 @@ nav li {
 nav a {
     display: block;
     padding: 1em;
+}
+
+.twister {
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 50%;
 }
 
 /* MAIN */
@@ -142,10 +157,6 @@ footer nav ul {
     background-size: cover;
 }
 
-.logo {
-    max-width: 100px;
-    padding: 2px;
-}
 
 .style {
     max-width: 200px;
