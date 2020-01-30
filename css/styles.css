@@ -151,39 +151,8 @@ footer nav ul {
 }
 
 
-#heroSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 550px;
-    width: 800px;
-}
-
-
-.heroContent {
+.full {
     width: 100%;
-    height: 100%;
-    perspective: 2000px;
-    position: relative;
-    margin-left: 10px;
-
-}
-
-.image {
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transform: rotateX(10deg) rotateY(10deg);
-
-}
-
-.icons {
-    max-width: 50px;
-}
-
-.image.first {
-    /*CHANGE: sited-id, image filename*/
-    background-image: url("https://site-id/s/file-name.png");
-    background-repeat: no-repeat;
-
+    margin: 0;
+    padding: 0;
 }
