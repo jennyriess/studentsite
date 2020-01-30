@@ -177,6 +177,10 @@ footer nav ul {
 
 }
 
+.icons {
+    max-width: 50px;
+}
+
 .image.first {
     /*CHANGE: sited-id, image filename*/
     background-image: url("https://site-id/s/file-name.png");
