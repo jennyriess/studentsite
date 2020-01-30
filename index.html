@@ -9,10 +9,6 @@
             <meta http-equiv="X-UA-Compatible" content="ie-edge" />
             <link rel="stylesheet" type="text/css" href="css/styles.css"/>
             <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Shrikhand&display=swap" rel="stylesheet">
-            <!--Code Injection-->
-            <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-            <!--CHANGE: site-id, javascript filename-->
-            <script src="https://css-3d.squarespace.com/s/index.js"></script>
         </head>
 
         <body class="page-home">
@@ -43,7 +39,8 @@
                      <p>This is my KCC New Media Arts Portfolio</p>
                      <img src="images/Tokyo.jpg" class="images"><br>
                 </section>
-                <center>
+              
+                
                 <section>
                     <center>
                         <a href="mailto:jennyriess@gmail.com"><img src="images/Say_hi.png" class="style"></a>
@@ -53,20 +50,18 @@
 
                 <section>
                     <center>    
-                    <h2>
-                        <a href="">Follow on Instagram @jenn.nay__</a>
-                    </h2>
+                    <h2><a href="">Follow on Instagram @jenn.nay__</a></h2>
                     </center>
                     <img src="images/gram2.png" class="gram">
-                
                 </section>
+
                 <section>
+                    <center>
                     <img src="images/git.png" class="icons">
                     <img src="images/twitch.png" class="icons">
+                    </center>
                 </section>
            
-               
-    </center>
         </main>
 
        <footer>
@@ -79,40 +74,6 @@
            </nav>
        </footer>
 
-        <script>
-                $(function(){
-                var heroContent = $(".heroContent");
-                card.on('mousemove', function (e) {
-        var x = e.clientX - $(this).offset().left + $(window).scrollLeft();
-        var y = e.clientY - $(this).offset().top + $(window).scrollTop();
-
-        var rY = map(x, 0, $(this).width(), -17, 17);
-        var rX = map(y, 0, $(this).height(), -17, 17);
-
-        $(this).children(".image").css("transform", "rotateY(" + rY + "deg)" + " " + "rotateX(" + -rX + "deg)");
-        });
-
-                card.on('mouseenter', function () {
-                $(this).children(".image").css({
-                transition: "all " + 0.05 + "s" + " linear",
-                });
-                });
-
-                card.on('mouseleave', function () {
-                $(this).children(".image").css({
-                transition: "all " + 0.2 + "s" + " linear",
-                });
-
-                $(this).children(".image").css("transform", "rotateY(" + 0 + "deg)" + " " + "rotateX(" + 0 + "deg)");
-                });
-
-                function map(x, in_min, in_max, out_min, out_max)
-                {
-                return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
-                }
-                });
-        </script>
-        
     </body>
 
 
