@@ -87,6 +87,18 @@ nav a {
     border-radius: 50%;
 }
 
+a.twister:hover {
+
+        height: 30px;
+        width: 30px;
+        background-color: #30BF00;
+        border-radius: 50%;
+}
+
+a.extra:hover {
+    background-color:white;
+}
+
 /* MAIN */
 main {
     padding: 0 0 3em 0;
