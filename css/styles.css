@@ -17,8 +17,9 @@ a {
 
 .images {
     max-width: 500px;
-    align-content: center;
-    float:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gram {
@@ -92,12 +93,16 @@ footer nav ul {
     justify-content: center;
 }
 
+.red {
+    background: red;
+}
+
 /* HERO */
 .hero {
     display: grid;
     align-content: center;
     text-align: center;
-    background: red;
+    background-image: url('images/background.png')
     min-height: 50vh;
     color: white;
     background-image: url('images/Tokyo.jpg');
@@ -126,11 +131,11 @@ footer nav ul {
 }
 
 .page-home {
-    background-image: url('images/background.png');
+    background-image: url('');
 }
 
 .page-home .hero {
-    background-image: url('images/Tokyo.jpg');
+    background-image: url('');
     background-position: center top;
     background-size: cover;
 }
