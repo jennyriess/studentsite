@@ -250,3 +250,10 @@ footer nav ul {
     background-image: url('../images/yung.png');
     background-size: cover;
 }
+
+/*Blog*/
+
+.splice {
+    background-image: url('images/background.png');
+    background-size: cover;
+}
