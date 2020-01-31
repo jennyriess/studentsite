@@ -136,3 +136,8 @@ section {
     background: #888;
     min-height: 30vh;
 }
+
+.logo {
+    max-width: 95px;
+    padding: 2px;  
+}
