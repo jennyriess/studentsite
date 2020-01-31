@@ -101,3 +101,9 @@ a:focus {
 a:visited {
     color: #39c;
 }
+
+/* SUB PAGES */
+.page-sub .hero {
+    background: #888;
+    min-height: 30vh;
+}
