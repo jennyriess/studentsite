@@ -130,3 +130,9 @@ section {
     opacity: .5;
     font-size: .8em;
 }
+
+/* SUB PAGES */
+.page-sub .hero {
+    background: #888;
+    min-height: 30vh;
+}
