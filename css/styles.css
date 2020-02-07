@@ -247,3 +247,10 @@ footer nav ul {
     opacity: .5;
     font-size: .8em;
 }
+
+.music-box {
+    width: 50%
+    height: 350px;
+    display:flex;
+    flex-direction: flex-end;
+}
