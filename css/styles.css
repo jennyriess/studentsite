@@ -254,3 +254,8 @@ footer nav ul {
     display:flex;
     flex-direction: flex-end;
 }
+
+.flex-practice {
+    display: flex;
+    flex-direction: flex-end; 
+}
