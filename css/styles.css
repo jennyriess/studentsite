@@ -249,7 +249,7 @@ footer nav ul {
 }
 
 .music-box {
-    width: 50%
+    width: 50%;
     height: 350px;
     display:flex;
     flex-direction: flex-end;
