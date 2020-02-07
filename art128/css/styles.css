@@ -26,6 +26,10 @@ body {
     background: #eee;
 }
 
+a li {
+    text-decoration: none;
+}
+
 /* #HEADINGS
 	Based on a Traditional Typographic Scale
 	48, 36, 24, 21, 18, 16
