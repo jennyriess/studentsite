@@ -256,5 +256,7 @@ footer nav ul {
 }
 
 button {
-    background-color: blue;
+    height: 50px;
+    width: 200px;
+    border: blue 2px;
 }
