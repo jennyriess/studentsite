@@ -254,9 +254,3 @@ footer nav ul {
     display:flex;
     flex-direction: flex-end;
 }
-
-button {
-    height: 50px;
-    width: 200px;
-    border: blue 2px;
-}
