@@ -248,14 +248,24 @@ footer nav ul {
     font-size: .8em;
 }
 
-.music-box {
-    width: 50%;
-    height: 350px;
-    display:flex;
-    flex-direction: flex-end;
+.wrapper {
+    margin-top: 65px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.flex-practice {
+.video {
+    width: 100%;
+}
+
+.music-box {
     display: flex;
-    flex-direction: flex-end; 
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+.div-box {
+    height: 200px;
 }
