@@ -131,7 +131,7 @@ footer nav ul {
     display: grid;
     align-content: center;
     text-align: center;
-    background-image: url('images/background.png')
+    background-image: url('images/background.png');
     min-height: 50vh;
     color: white;
     background-image: url('images/Tokyo.jpg');
