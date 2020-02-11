@@ -239,14 +239,18 @@ footer nav ul {
 
 .video {
     width: 100%;
+    display: flex;
+    align-content: center;
 }
 
+/*
 .music-box {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 20px 0px 20px 0px;
 }
+*/
 
 .div-box {
     height: 200px;
